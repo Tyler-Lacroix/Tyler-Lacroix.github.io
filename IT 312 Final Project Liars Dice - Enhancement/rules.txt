@@ -1,0 +1,28 @@
+Welcome to Liar's Dice C++ Edition!
+
+- Program developed by Tyler B. Lacroix for SNHU IT 312, and updated for SNHU CS 499 -
+
+Liar's Dice is a multiplayer dice game with a minimum of two players and no upper limit on the number
+of participants. The goal is to make a correct guess or correctly call another player a liar.
+
+The first player calls out two numbers: first, how many dice on the table they think have
+been rolled as a number. For example, player one could say "two fives,"
+which means they think there are at least two dice that are fives among all the players'
+dice (including their own).
+
+At this point, the next player can accept what has been called out and move on
+or call player one out, which will end the round and result in a winner or loser for the
+round.
+
+If player one calls out "two fives," it does not matter whether player one has a five or not as
+bluffing is allowed, and encouraged. It only matters if another player believes player one is bluffing
+and calls them out on it. In that instance, all dice must be revealed. If player one is correct,
+then they win. If player one is wrong, then the player who called them out is the winner.
+
+If player one's call is accepted, then player two calls out a number. The first number must be
+greater than what player one called. For example, if player one called out "two fives," player
+two must call out three or higher for their first number, so "three fives," "three fours," or
+four twos" would all be acceptable. "One five" or "two sixes" would be unacceptable.
+
+Gameplay continues until someone is called out.
+
