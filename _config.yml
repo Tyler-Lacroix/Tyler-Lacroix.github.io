@@ -1,1 +1,5 @@
-theme: jekyll-theme-minimal
+title: Tyler Lacroix CS499 Portfolio
+description: Final project for SNHU CS499
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-midnight
