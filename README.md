@@ -36,9 +36,23 @@ of the math and functions in the game, in order to make the code more modular. T
 
 ### Artifact comparison
 
-[[Insert examples of original output]]
-[[Insert image of updated output]]
+As stated in the artifact brief, the biggest issue I had with the original program was its lack of modularity and overuse of hardcoded values in its math. As a hobbiest game developer, I do understand that sometimes it's necessary to make use of hardcoded and arbitrary numbers in math, however because my planned enhancement for the program involved expanding it to
+support other gamemodes (in this case, 3 and 10 dice games), the hardcoded math needed to be replaced with more modular math. The following example shows one such case of hardcoded numbers in game logic. In this case, in the function that is called to end the game once a player is called as a liar. Originally, as the game only needed to account for 5 dice per player, 'numplayers * 5' worked perfectly fine to count the number of dice in play.
 
+![Example image showing the use of hardcoded values in program math](Images/TL_LiarsDiceExample_A.png)
+
+Unfortunately, this simply would not work when trying to run games with varing amounts of dice, as the game would still try and count 5 dice per player which would result in incorrect values being displayed. This was solved by introducing a variable, 'gameSize' which is used throughout the program in place of a hardcoded 5.
+
+![Example image showing updated logic in program math](Images/TL_LiarsDiceEnhancementExample_A.png)
+
+As shown here, the variable 'gameSize' is used, which allows the program to account for a variable number of dice per player, rather than exactly 5. This made it possible to run games with 3, 10, and potentially even more dice!
+
+Updating the internal logic wasn't the only thing I did when updating the program. One change I made was to the dice display, condensing it in order to allow more than 5 dice to be on a single line at once.
+
+![Example image showing the original program output](Images/TL_LiarsDiceExample_B.png)
+![Example image showing the updated program output](Images/TL_LiarsDiceEnhancementExample_B.png)
+
+The updated display does result in the game feeling more cluttered, even when there are less dice in play, however I feel like it was a necessary sacrifice to make in order for all dice to be displayed at once without an excessively long console.
 
 ## Artifact 3: Databases
 
