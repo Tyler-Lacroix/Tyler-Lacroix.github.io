@@ -1,7 +1,16 @@
-# SNHU CS499 Computer Science Capstone Portfolio
-Github Pages repository for CS499 Computer Science Capstone
+## Professional Self-Assessment
 
-This is a work in progress Github Pages website for Tyler Lacroix's 2025 CS Capstone Final Project
+[[Finish self-assessment]]
+
+The following are a selection of hard and soft skills I learned while participating in the SNHU CS program.
+
+| Hard Skills | Soft Skills |
+| ------------- | ------------- |
+| Operating systems | Collaberation |
+| Mobile App Development | Problem Solving |
+| Software Engineering | Ethics |
+| Agile Development | Leadership |
+| Database management | Desire to Learn |
 
 ## Artifact 1: Software Design & Engineering
 
