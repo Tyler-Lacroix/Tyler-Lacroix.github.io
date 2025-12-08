@@ -45,9 +45,11 @@ I chose to recreate a scene of my bedroom wall, which contained 3 shelves, 2 pos
 
 ### //Artifact Comparison
 
-[[Insert image of original wall]]
-[[Insert image of original artifact]]
-[[Insert image of updated artifact]]
+![Image of wall before](Images/TL_BedroomWallExampleA.png)
+
+![Image of wall after](Images/TL_BedroomWallEnhancementExampleA.png)
+
+![Image of current wall, to compare both iterations of the program to](Images/TL_BedroomWall-After.png)
 
 ## //Artifact 2: Algorithms & Data Structure
 
