@@ -1,8 +1,9 @@
-![Professional Self-Assessment](Images/Title1.png)
+
+# //Professional Self Assessment
 
 [[Finish self-assessment]]
 
-### Professional Skills
+### //Professional Skills
 
 The following are a selection of hard and soft skills I learned and enhanced while participating in the SNHU Computer Science program.
 
@@ -30,7 +31,7 @@ Additionally, the following are a selection of languages and APIs I used through
 </table>
 
 
-## Artifact 1: Software Design & Engineering
+## //Artifact 1: Software Design & Engineering
 
 > The artifact is a recreation of a real world wall in my bedroom, created using C++ OpenGL. It was created as the final project for CS330 Computer Graphics and Visualization. It was created when I was taking CS330 (in 2024).
 >
@@ -42,13 +43,13 @@ Additionally, the following are a selection of languages and APIs I used through
 For my first artifact, I chose to use the final project from CS330 Computer Graphics and Visualization. This project required us to take a pre-existing and unfinished C++-based OpenGL renderer that we spent the majority of the term updating and developing in minor parts, and using it to recreate a scene of our choice. 
 I chose to recreate a scene of my bedroom wall, which contained 3 shelves, 2 posters, and various personal items such as figures, video games, etc.
 
-### Artifact Comparison
+### //Artifact Comparison
 
 [[Insert image of original wall]]
 [[Insert image of original artifact]]
 [[Insert image of updated artifact]]
 
-## Artifact 2: Algorithms & Data Structure
+## //Artifact 2: Algorithms & Data Structure
 
 > The artifact is a recreation of the real world dice game, Liar’s Dice, created in C++. It was my final project for class IT312.
 >
@@ -61,7 +62,7 @@ My second artifact is an original program where I recreated a physical dice game
 with the game ending if a player is successfully called out as a liar. The original build of the program focused entirely on recreating the gameplay loop of the dice game as closely as possible. The original intent wasn't to create a modular or updatable program, simple one that works. When enhancing the artifact, I took the time to change a lot
 of the math and functions in the game, in order to make the code more modular. To take advantage of this, I added two different game modes to allow players to play with 3, 5, or 10 dice instead of forcing a 5 dice game.
 
-### Artifact Comparison
+### //Artifact Comparison
 
 As stated in the artifact brief, the biggest issue I had with the original program was its lack of modularity and overuse of hardcoded values in its math. As a hobbiest game developer, I do understand that sometimes it's necessary to make use of hardcoded and arbitrary numbers in math, however because my planned enhancement for the program involved expanding it to
 support other gamemodes (in this case, 3 and 10 dice games), the hardcoded math needed to be replaced with more modular math. The following example shows one such case of hardcoded numbers in game logic. In this case, in the function that is called to end the game once a player is called as a liar. Originally, as the game only needed to account for 5 dice per player, 'numplayers * 5' worked perfectly fine to count the number of dice in play.
@@ -81,7 +82,7 @@ Updating the internal logic wasn't the only thing I did when updating the progra
 
 The updated display does result in the game feeling more cluttered, even when there are less dice in play, however I feel like it was a necessary sacrifice to make in order for all dice to be displayed at once without an excessively long console.
 
-## Artifact 3: Databases
+## //Artifact 3: Databases
 
 > Unfortunately, due to circumstances beyond my control (Namely a poorly timed hard drive failure), I do not have access to any of my database related work from during my time in the program. To still have something to show, I instead chose to create a simple day-planner app using MongoDB API and Python to display my knowlege of both. Hopefully, despite not having an
 > "original, pre-enhancement" database artifact, this still proves to be sufficient in displaying my evolution of skills relating to MongoDB and Python.
