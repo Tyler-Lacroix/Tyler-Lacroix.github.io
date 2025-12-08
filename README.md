@@ -1,4 +1,4 @@
-## Professional Self-Assessment
+![Professional Self-Assessment](Images/Title1.png)
 
 [[Finish self-assessment]]
 
