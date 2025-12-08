@@ -81,8 +81,8 @@ As shown here, the variable 'gameSize' is used, which allows the program to acco
 
 Updating the internal logic wasn't the only thing I did when updating the program. One change I made was to the dice display, condensing it in order to allow more than 5 dice to be on a single line at once.
 
-![Example image showing the original program output](Images/TL_LiarsDiceExample_B.png)
-![Example image showing the updated program output](Images/TL_LiarsDiceEnhancementExample_B.png)
+<img src="Images/TL_LiarsDiceExample_B.png" alt="Example image showing the original program output" style="width:488px;height:435px;">
+<img src="Images/TL_LiarsDiceEnhancementExample_B.png" alt="Example image showing the updated program output" style="width:574px;height:435px;">
 
 The updated display does result in the game feeling more cluttered, even when there are less dice in play, however I feel like it was a necessary sacrifice to make in order for all dice to be displayed at once without an excessively long console.
 
