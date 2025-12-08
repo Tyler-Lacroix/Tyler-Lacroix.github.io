@@ -358,13 +358,13 @@ void SceneManager::LoadSceneTextures()
 		"cobblestone.jpg",
 		"floor");
 
-	bReturn = CreateGLTexture(
-		"fabrezetexture.jpg",
-		"fabreze");
+	//bReturn = CreateGLTexture(
+	//	"fabrezetexture.jpg",
+	//	"fabreze");
 
-	bReturn = CreateGLTexture(
-		"blue.jpg",
-		"blue");
+	//bReturn = CreateGLTexture(
+	//	"blue.jpg",
+	//	"blue");
 
 	bReturn = CreateGLTexture(
 		"darkwood.jpg",
@@ -830,9 +830,10 @@ void SceneManager::RenderScene()
 	SetShaderTexture("shelf");
 	SetShaderMaterial("wood");
 	m_basicMeshes->DrawBoxMesh();
-
+	
+	/*
 	//fabreeze
-	/****************************************************************/
+	
 	// set the XYZ scale for the mesh
 	scaleXYZ = glm::vec3(1.0f, 5.0f, 1.0f);
 
@@ -858,8 +859,7 @@ void SceneManager::RenderScene()
 
 	// draw the mesh with transformation values
 	m_basicMeshes->DrawCylinderMesh();
-	/****************************************************************/
-		/****************************************************************/
+
 	// set the XYZ scale for the mesh
 	scaleXYZ = glm::vec3(1.0f, 1.0f, 1.0f);
 
@@ -884,8 +884,7 @@ void SceneManager::RenderScene()
 	SetShaderMaterial("cement");
 
 	// draw the mesh with transformation values
-	m_basicMeshes->DrawTaperedCylinderMesh();
-	/****************************************************************/
+
 		// set the XYZ scale for the mesh
 	scaleXYZ = glm::vec3(1.0f, 1.5f, 1.0f);
 
@@ -911,7 +910,7 @@ void SceneManager::RenderScene()
 
 	// draw the mesh with transformation values
 	m_basicMeshes->DrawTaperedCylinderMesh();
-	/****************************************************************/
+
 		// set the XYZ scale for the mesh
 	scaleXYZ = glm::vec3(0.2f, 1.5f, 0.2f);
 
@@ -935,8 +934,7 @@ void SceneManager::RenderScene()
 
 	// draw the mesh with transformation values
 	m_basicMeshes->DrawBoxMesh();
-	//SetShaderMaterial("cement");
-
+	*/
 	/****************************************************************/
 	/*
 	//rubix cube
@@ -1005,7 +1003,7 @@ void SceneManager::RenderScene()
 	ZrotationDegrees = 0.0f;
 
 	// set the XYZ position for the mesh
-	positionXYZ = glm::vec3(-5.0f, 15.0f, -16.5f);
+	positionXYZ = glm::vec3(-3.0f, 18.0f, -16.5f);
 
 	// set the transformations into memory to be used on the drawn meshes
 	SetTransformations(
@@ -1030,7 +1028,7 @@ void SceneManager::RenderScene()
 	ZrotationDegrees = 0.0f;
 
 	// set the XYZ position for the mesh
-	positionXYZ = glm::vec3(7.0f, 15.0f, -16.5f);
+	positionXYZ = glm::vec3(9.0f, 15.0f, -16.5f);
 
 	// set the transformations into memory to be used on the drawn meshes
 	SetTransformations(
@@ -1082,7 +1080,7 @@ void SceneManager::RenderScene()
 	ZrotationDegrees = 0.0f;
 
 	// set the XYZ position for the mesh
-	positionXYZ = glm::vec3(15.0f, 1.0f, -13.5f);
+	positionXYZ = glm::vec3(-15.0f, 11.0f, -13.5f);
 
 	// set the transformations into memory to be used on the drawn meshes
 	SetTransformations(
@@ -1097,17 +1095,18 @@ void SceneManager::RenderScene()
 
 	// draw the mesh with transformation values
 	m_basicMeshes->DrawPlaneMesh();
-
-	// set the XYZ scale for the mesh
-	scaleXYZ = glm::vec3(3.5f, 1.5f, 2.5f);
+	/****************************************************************/
+//tacocat plush
+// set the XYZ scale for the mesh
+	scaleXYZ = glm::vec3(2.5f, 0.0f, 1.5f);
 
 	// set the XYZ rotation for the mesh
-	XrotationDegrees = 0.0f;
+	XrotationDegrees = 90.0f;
 	YrotationDegrees = 0.0f;
 	ZrotationDegrees = 0.0f;
 
 	// set the XYZ position for the mesh
-	positionXYZ = glm::vec3(15.0f, 4.0f, -15.0f);
+	positionXYZ = glm::vec3(15.0f, 0.0f, -16.5f);
 
 	// set the transformations into memory to be used on the drawn meshes
 	SetTransformations(
@@ -1117,9 +1116,9 @@ void SceneManager::RenderScene()
 		ZrotationDegrees,
 		positionXYZ);
 
-	SetShaderColor(255, 255, 255, 1);
+	SetShaderTexture("tacocat");
 	SetShaderMaterial("cement");
 
 	// draw the mesh with transformation values
-	m_basicMeshes->DrawBoxMesh();
+	m_basicMeshes->DrawPlaneMesh();
 }

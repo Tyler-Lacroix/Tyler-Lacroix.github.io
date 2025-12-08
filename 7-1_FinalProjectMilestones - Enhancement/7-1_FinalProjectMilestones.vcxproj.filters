@@ -55,9 +55,6 @@
     <Image Include="games.jpg">
       <Filter>Source Files\Utilities\textures</Filter>
     </Image>
-    <Image Include="ff7r_boxart.jpg">
-      <Filter>Source Files\Utilities\textures</Filter>
-    </Image>
     <Image Include="switchcases.jpg">
       <Filter>Source Files\Utilities\textures</Filter>
     </Image>
