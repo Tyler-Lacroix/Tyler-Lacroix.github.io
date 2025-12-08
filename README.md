@@ -45,9 +45,13 @@ I chose to recreate a scene of my bedroom wall, which contained 3 shelves, 2 pos
 
 ### //Artifact Comparison
 
+As stated in the brief, the actual changes to the behind the scenes code were extremely minimal at best. The closest thing I did to actually improving the renderer was updating existing textures so that they could load faster, and removing calls to unused textures. The majority of the changes I made were to the scene itself, to better reflect both the wall that it's a recreation of, as well as improve my familiarity with OpenGL.
+
 <img src="Images/TL_BedroomWallExampleA.png" alt="Image of wall before" style="width:450px;height:360px;"> <img src="Images/TL_BedroomWallEnhancementExampleA.png" alt="Image of wall after" style="width:450px;height:360px;">
 
 <img src="Images/TL_BedroomWall-After.png" alt="Image of current wall, to compare both iterations of the program to" style="width:1000px;height:462px;">
+
+Shown above is a before/after of the scene, fully rendered using Visual Studio 2024, as well as the current state of the wall the scenes recreate as of December 8, 2025. As you can see, some textures such as the posters were moved around to better reflect how they're displayed (even if the incorrect Final Fantasy X poster is still being used in the final scene), and various elements such as the Nintendo Switch game display were moved to be more accurate. Additionally, I added a texture dipicting my copy of Final Fantasy 7 Remake for the PS4 with my Lucas and Pokemon Trainer figures imposed on top of it, to imitate how they're displayed in real life. The only element to not be recreated in OpenGL is the lego rabbit, entirely due to how complex and time-consuming it would be to fully recreate the lego model within the limitations of the engine. If given more time, I would have given it a shot.
 
 ## //Artifact 2: Algorithms & Data Structure
 
