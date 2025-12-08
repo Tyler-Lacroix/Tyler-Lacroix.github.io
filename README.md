@@ -45,7 +45,7 @@ I chose to recreate a scene of my bedroom wall, which contained 3 shelves, 2 pos
 
 ### //Artifact Comparison
 
-<img src="Images/TL_BedroomWallExampleA.png" alt="Image of wall before" style="width:500px;height:400px;"> <img src="Images/TL_BedroomWallEnhancementExampleA.png" alt="Image of wall after" style="width:500px;height:400px;">
+<img src="Images/TL_BedroomWallExampleA.png" alt="Image of wall before" style="width:400px;height:320px;"> <img src="Images/TL_BedroomWallEnhancementExampleA.png" alt="Image of wall after" style="width:400px;height:320px;">
 
 <img src="Images/TL_BedroomWall-After.png" alt="Image of current wall, to compare both iterations of the program to" style="width:1000px;height:462px;">
 
