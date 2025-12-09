@@ -95,11 +95,7 @@ dynamic gameplay.
 
 ## ./ Artifact 3: Databases
 
-> Unfortunately, due to circumstances beyond my control (Namely a poorly timed hard drive failure), I do not have access to any of my database related work from during my time in the program. To still have something to show, I instead chose to create a simple day-planner app using MongoDB API and Python to display my knowlege of both. Hopefully, despite not having an
-> "original, pre-enhancement" database artifact, this still proves to be sufficient in displaying my evolution of skills relating to MongoDB and Python.
+> Originally, due to an unexpected hard drive failure, I had planned on creating an original Mongo application due to having lost all my previous database work. However, fairly recently, I managed to locate a copy of my CS 465 final project which was a travel agency website built using MongoDB and NodeJS. The final enhancement is fairly slapped together, due to it all being last minute, however I still feel confident that my work on this artifact is exemplary of my ability to use MongoDB.
 
 > -Exerpt from CS 499 Milestone Four Narrative
 
-lol
-
-lmao
