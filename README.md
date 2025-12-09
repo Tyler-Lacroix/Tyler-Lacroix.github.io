@@ -1,12 +1,12 @@
 
-# //Professional Self Assessment
+# ./Professional Self Assessment
 
 Computer Science has always been something I've had a passion for. For as long as I can remember, I've had a facination with computers and programs. From wanting to be a game developer as a child, to participating in state-level computer science competitions as a teenager, I've always loved creating and
 tinkering with programs. While I've been learning about programming and computers my whole live, I only started to seriously pursue education in Computer Science in high school.
 
 I originally started seeking more advanced education in 2020, where I was studying for a bachelors of Game Design as Southern Arkasnas University. Deciding that I didn't want to pursue game design professionally due to various factors at the time, I transfered to SNHU back in 2022 where I started working on my Bachelors of Computer Science with a focus on Software Engineering. I've greatly enjoyed my time at SNHU, and I have improved much both as a student, endlessly seeking to learn, and as a computer scientist.
 
-### //Professional Skills
+### ./Professional Skills
 
 The following are a selection of hard and soft skills I learned, and enhanced while participating in the SNHU Computer Science program.
 
@@ -34,7 +34,7 @@ Additionally, the following are a selection of languages and APIs I used through
 </table>
 
 
-## //Artifact 1: Software Design & Engineering
+## ./Artifact 1: Software Design & Engineering
 
 > The artifact is a recreation of a real world wall in my bedroom, created using C++ OpenGL. It was created as the final project for CS330 Computer Graphics and Visualization. It was created when I was taking CS330 (in 2024).
 >
@@ -46,7 +46,7 @@ Additionally, the following are a selection of languages and APIs I used through
 For my first artifact, I chose to use the final project from CS330 Computer Graphics and Visualization. This project required us to take a pre-existing and unfinished C++-based OpenGL renderer that we spent the majority of the term updating and developing in minor parts, and using it to recreate a scene of our choice. 
 I chose to recreate a scene of my bedroom wall, which contained 3 shelves, 2 posters, and various personal items such as figures, video games, etc.
 
-### //Artifact Comparison
+### ./Artifact Comparison
 
 As stated in the brief, the actual changes to the behind the scenes code were extremely minimal at best. The closest thing I did to actually improving the renderer was updating existing textures so that they could load faster, and removing calls to unused textures. The majority of the changes I made were to the scene itself, to better reflect both the wall that it's a recreation of, as well as improve my familiarity with OpenGL.
 
@@ -56,7 +56,7 @@ As stated in the brief, the actual changes to the behind the scenes code were ex
 
 Shown above is a before/after of the scene, fully rendered using Visual Studio 2024, as well as the current state of the wall the scenes recreate as of December 8, 2025. As you can see, some textures such as the posters were moved around to better reflect how they're displayed (even if the incorrect Final Fantasy X poster is still being used in the final scene), and various elements such as the Nintendo Switch game display were moved to be more accurate. Additionally, I added a texture dipicting my copy of Final Fantasy 7 Remake for the PS4 with my Lucas and Pokemon Trainer figures imposed on top of it, to imitate how they're displayed in real life. The only element to not be recreated in OpenGL is the lego rabbit, entirely due to how complex and time-consuming it would be to fully recreate the lego model within the limitations of the engine. If given more time, I would have given it a shot.
 
-## //Artifact 2: Algorithms & Data Structure
+## ./Artifact 2: Algorithms & Data Structure
 
 > The artifact is a recreation of the real world dice game, Liar’s Dice, created in C++. It was my final project for class IT312.
 >
@@ -69,7 +69,7 @@ My second artifact is an original program where I recreated a physical dice game
 with the game ending if a player is successfully called out as a liar. The original build of the program focused entirely on recreating the gameplay loop of the dice game as closely as possible. The original intent wasn't to create a modular or updatable program, simple one that works. When enhancing the artifact, I took the time to change a lot
 of the math and functions in the game, in order to make the code more modular. To take advantage of this, I added two different game modes to allow players to play with 3, 5, or 10 dice instead of forcing a 5 dice game.
 
-### //Artifact Comparison
+### ./Artifact Comparison
 
 As stated in the artifact brief, the biggest issue I had with the original program was its lack of modularity and overuse of hardcoded values in its math. As a hobbiest game developer, I do understand that sometimes it's necessary to make use of hardcoded and arbitrary numbers in math, however because my planned enhancement for the program involved expanding it to
 support other gamemodes (in this case, 3 and 10 dice games), the hardcoded math needed to be replaced with more modular math. The following example shows one such case of hardcoded numbers in game logic. In this case, in the function that is called to end the game once a player is called as a liar. Originally, as the game only needed to account for 5 dice per player, 'numplayers * 5' worked perfectly fine to count the number of dice in play.
@@ -93,7 +93,7 @@ The biggest issue still standing with the program in its current state is the li
 was originally developed, and changing it to be more dynamic (such as allowing players to input their own number of dice per game) would likely require a complete rewrite from the ground up. If I were to redo this program from scratch, that is something I would keep in mind from the start to allow for more
 dynamic gameplay.
 
-## //Artifact 3: Databases
+## ./Artifact 3: Databases
 
 > Unfortunately, due to circumstances beyond my control (Namely a poorly timed hard drive failure), I do not have access to any of my database related work from during my time in the program. To still have something to show, I instead chose to create a simple day-planner app using MongoDB API and Python to display my knowlege of both. Hopefully, despite not having an
 > "original, pre-enhancement" database artifact, this still proves to be sufficient in displaying my evolution of skills relating to MongoDB and Python.
