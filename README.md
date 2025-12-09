@@ -99,3 +99,5 @@ dynamic gameplay.
 
 > -Exerpt from CS 499 Milestone Four Narrative
 
+Due to the repository of my CS 465 project being well over 11,000 files, I'm linking to the [original GitHub repository](https://github.com/Topaz-542/cs465-fullstack/tree/main) as proof of work on this assignment
+
