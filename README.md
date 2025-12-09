@@ -1,11 +1,14 @@
 
 # //Professional Self Assessment
 
-[[Finish self-assessment]]
+Computer Science has always been something I've had a passion for. For as long as I can remember, I've had a facination with computers and programs. From wanting to be a game developer as a child, to participating in state-level computer science competitions as a teenager, I've always loved creating and
+tinkering with programs. While I've been learning about programming and computers my whole live, I only started to seriously pursue education in Computer Science in high school.
+
+I originally started seeking more advanced education in 2020, where I was studying for a bachelors of Game Design as Southern Arkasnas University. Deciding that I didn't want to pursue game design professionally due to various factors at the time, I transfered to SNHU back in 2022 where I started working on my Bachelors of Computer Science with a focus on Software Engineering. I've greatly enjoyed my time at SNHU, and I have improved much both as a student, endlessly seeking to learn, and as a computer scientist.
 
 ### //Professional Skills
 
-The following are a selection of hard and soft skills I learned and enhanced while participating in the SNHU Computer Science program.
+The following are a selection of hard and soft skills I learned, and enhanced while participating in the SNHU Computer Science program.
 
 | Hard Skills | Soft Skills |
 | ------------- | ------------- |
