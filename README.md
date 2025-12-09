@@ -95,9 +95,5 @@ dynamic gameplay.
 
 ## ./ Artifact 3: Databases
 
-> Originally, due to an unexpected hard drive failure, I had planned on creating an original Mongo application due to having lost all my previous database work. However, fairly recently, I managed to locate a copy of my CS 465 final project which was a travel agency website built using MongoDB and NodeJS. The final enhancement is fairly slapped together, due to it all being last minute, however I still feel confident that my work on this artifact is exemplary of my ability to use MongoDB.
-
-> -Exerpt from CS 499 Milestone Four Narrative
-
-Due to the repository of my CS 465 project being well over 11,000 files, I'm linking to the [original GitHub repository](https://github.com/Topaz-542/cs465-fullstack/tree/main) as proof of work on this assignment
+> 
 
