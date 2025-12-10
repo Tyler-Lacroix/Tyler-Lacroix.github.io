@@ -102,9 +102,16 @@ dynamic gameplay.
 
 Due to the repository of my CS 465 project being well over 11,000 files, I'm linking to the [original GitHub repository](https://github.com/Topaz-542/cs465-fullstack/tree/main) as proof of work on this assignment
 
-![Image displaying the sequence diagram for the Travlr Website](Images/TL_TravlrA.png)
+<img src="Images/TL_TravlrA.png" alt="Image displaying the sequence diagram for the Travlr Website" style="width:750px;height:500px;">
 
-![Image displaying the class diagram for the Travlr Website](Images/TL_TravlrB.png)
+The sequence diagram created to prototype the website and how it would interact with the server, the client, and the Mongo database, displays how the website functions in its most primitive state. It displays how information is requested by the client, obtained by the server from the database, and then displayed to the
+client by the server. Say, for example, the clientside website required an image of a cruise ship as part of the webpage its trying to load. The HTTP client would 'call service to retrieve data' from the controller model, which would then request the desired image through Mongoose, before passing it back to the 
+HTTP client, which would finally display the image to the browser view. This is a grossly oversimplified way to display how the client, server, and database interact with each other but it works in this case as a simple paper prototype model.
 
-![Image displaying the API endpoints for the Travlr Website](Images/TL_TravlrC.png)
+<img src="Images/TL_TravlrB.png" alt="Image displaying the class diagram for the Travlr Website" style="width:750px;height:500px;">
 
+Next, the class diagram displays the inner workings of the website on a more granular scale. Depicting various classes, their functions and attributes within, and how they interact with each other.
+
+<img src="Images/TL_TravlrC.png" alt="Image displaying the API endpoints for the Travlr Website" style="width:750px;height:500px;">
+
+Finally, the API endpoint table displays all the programmed API calls that can be used to modify and access the Mongo database. The get call is used to retrieve trips to be displayed on the clients browser, the two post calls allow the usage of admin accounts for website and database management, and finally the put and delete calls allow for managing entries after being pushed into the database.
