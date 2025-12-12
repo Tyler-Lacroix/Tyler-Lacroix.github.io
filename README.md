@@ -1,10 +1,9 @@
 
 # ./ Professional Self Assessment
 
-Computer Science has always been something I've had a passion for. For as long as I can remember, I've had a facination with computers and programs. From wanting to be a game developer as a child, to participating in state-level computer science competitions as a teenager, I've always loved creating and
-tinkering with programs. While I've been learning about programming and computers my whole live, I only started to seriously pursue education in Computer Science in high school.
+  Computer Science has always been something I've had a passion for. For as long as I can remember, I've had a fascination with computers and programs. From wanting to be a game developer as a child, to participating in state-level computer science competitions as a teenager, I've always loved creating and tinkering with programs. While I've been learning about programming and computers my whole life, I only started to seriously pursue education in Computer Science in high school.
 
-I originally started seeking more advanced education in 2020, where I was studying for a bachelors of Game Design as Southern Arkasnas University. Deciding that I didn't want to pursue game design professionally due to various factors at the time, I transfered to SNHU back in 2022 where I started working on my Bachelors of Computer Science with a focus on Software Engineering. I've greatly enjoyed my time at SNHU, and I have improved much both as a student, endlessly seeking to learn, and as a computer scientist.
+I originally started seeking more advanced education in 2020, where I was studying for a bachelors of Game Design at Southern Arkansas University. Deciding that I didn't want to pursue game design professionally due to various factors at the time, I transferred to SNHU back in 2022 where I started working on my Bachelors of Computer Science with a focus on Software Engineering. I've greatly enjoyed my time at SNHU, and I have improved much both as a student, endlessly seeking to learn, and as a computer scientist.
 
 ### ./ Professional Skills
 
@@ -12,13 +11,13 @@ The following are a selection of hard and soft skills I learned, and enhanced wh
 
 | Hard Skills | Soft Skills |
 | ------------- | ------------- |
-| Operating systems | Collaberation |
+| Operating systems | Collaboration |
 | Mobile App Development | Problem Solving |
 | Software Engineering | Ethics |
 | Agile Development | Leadership |
 | Database management | Desire to Learn |
 
-Additionally, the following are a selection of languages and APIs I used throughout the program, that I feel sufficiently skilled in.
+Additionally, the following are a selection of languages and APIs I used throughout the program that I feel sufficiently skilled in.
 
 <table> <!-- HTML table entirely to avoid blank header row. Seriously, why is there no way to NOT have a header row via Markdown???????? -->
   <tr>
@@ -54,7 +53,7 @@ As stated in the brief, the actual changes to the behind the scenes code were ex
 
 <img src="Images/TL_BedroomWall-After.png" alt="Image of current wall, to compare both iterations of the program to" style="width:1000px;height:462px;">
 
-Shown above is a before/after of the scene, fully rendered using Visual Studio 2024, as well as the current state of the wall the scenes recreate as of December 8, 2025. As you can see, some textures such as the posters were moved around to better reflect how they're displayed (even if the incorrect Final Fantasy X poster is still being used in the final scene), and various elements such as the Nintendo Switch game display were moved to be more accurate. Additionally, I added a texture dipicting my copy of Final Fantasy 7 Remake for the PS4 with my Lucas and Pokemon Trainer figures imposed on top of it, to imitate how they're displayed in real life. The only element to not be recreated in OpenGL is the lego rabbit, entirely due to how complex and time-consuming it would be to fully recreate the lego model within the limitations of the engine. If given more time, I would have given it a shot.
+Shown above is a before/after of the scene, fully rendered using Visual Studio 2024, as well as the current state of the wall the scenes recreate as of December 8, 2025. As you can see, some textures such as the posters were moved around to better reflect how they're displayed (even if the incorrect Final Fantasy X poster is still being used in the final scene), and various elements such as the Nintendo Switch game display were moved to be more accurate. Additionally, I added a texture depicting my copy of Final Fantasy 7 Remake for the PS4 with my Lucas and Pokemon Trainer figures imposed on top of it, to imitate how they're displayed in real life. The only element to not be recreated in OpenGL is the lego rabbit, entirely due to how complex and time-consuming it would be to fully recreate the lego model within the limitations of the engine. If given more time, I would have given it a shot.
 
 ## ./ Artifact 2: Algorithms & Data Structure
 
@@ -65,18 +64,15 @@ Shown above is a before/after of the scene, fully rendered using Visual Studio 2
 
 > -Exerpt from CS 499 Milestone Three Narrative
 
-My second artifact is an original program where I recreated a physical dice game using Visual Studio. As stated in the narrative exerpt, the original project had to be shelved pretty late in the term, and restarted with a much simpler idea. Liars Dice is a dice game where players take turns guessing how many dice of a specific value are on the board, 
-with the game ending if a player is successfully called out as a liar. The original build of the program focused entirely on recreating the gameplay loop of the dice game as closely as possible. The original intent wasn't to create a modular or updatable program, simple one that works. When enhancing the artifact, I took the time to change a lot
-of the math and functions in the game, in order to make the code more modular. To take advantage of this, I added two different game modes to allow players to play with 3, 5, or 10 dice instead of forcing a 5 dice game.
+My second artifact is an original program where I recreated a physical dice game using Visual Studio. As stated in the narrative excerpt, the original project had to be shelved pretty late in the term, and restarted with a much simpler idea. Liars Dice is a dice game where players take turns guessing how many dice of a specific value are on the board, with the game ending if a player is successfully called out as a liar. The original build of the program focused entirely on recreating the gameplay loop of the dice game as closely as possible. The original intent wasn't to create a modular or updatable program, but a simple one that works. When enhancing the artifact, I took the time to change a lot of the math and functions in the game, in order to make the code more modular. To take advantage of this, I added two different game modes to allow players to play with 3, 5, or 10 dice instead of forcing a 5 dice game.
 
 ### ./ Artifact Comparison
 
-As stated in the artifact brief, the biggest issue I had with the original program was its lack of modularity and overuse of hardcoded values in its math. As a hobbiest game developer, I do understand that sometimes it's necessary to make use of hardcoded and arbitrary numbers in math, however because my planned enhancement for the program involved expanding it to
-support other gamemodes (in this case, 3 and 10 dice games), the hardcoded math needed to be replaced with more modular math. The following example shows one such case of hardcoded numbers in game logic. In this case, in the function that is called to end the game once a player is called as a liar. Originally, as the game only needed to account for 5 dice per player, 'numplayers * 5' worked perfectly fine to count the number of dice in play.
+As stated in the artifact brief, the biggest issue I had with the original program was its lack of modularity and overuse of hardcoded values in its math. As a hobbyist game developer, I do understand that sometimes it's necessary to make use of hardcoded and arbitrary numbers in math, however because my planned enhancement for the program involved expanding it to support other gamemodes (in this case, 3 and 10 dice games), the hardcoded math needed to be replaced with more modular math. The following example shows one such case of hardcoded numbers in game logic. In this case, in the function that is called to end the game once a player is called as a liar. Originally, as the game only needed to account for 5 dice per player, 'numplayers * 5' worked perfectly fine to count the number of dice in play.
 
 <img src="Images/TL_LiarsDiceExample_A.png" alt="Example image showing the use of hardcoded values in program math" style="width:750px;height:375px;">
 
-Unfortunately, this simply would not work when trying to run games with varing amounts of dice, as the game would still try and count 5 dice per player which would result in incorrect values being displayed. This was solved by introducing a variable, 'gameSize' which is used throughout the program in place of a hardcoded 5.
+Unfortunately, this simply would not work when trying to run games with varying amounts of dice, as the game would still try to count 5 dice per player which would result in incorrect values being displayed. This was solved by introducing a variable, 'gameSize' which is used throughout the program in place of a hardcoded 5.
 
 <img src="Images/TL_LiarsDiceEnhancementExample_A.png" alt="Example image showing updated logic in program math" style="width:750px;height:375px;">
 
@@ -104,9 +100,7 @@ Due to the repository of my CS 465 project being well over 11,000 files, I'm lin
 
 <img src="Images/TL_TravlrA.png" alt="Image displaying the sequence diagram for the Travlr Website" style="width:750px;height:500px;">
 
-The sequence diagram created to prototype the website and how it would interact with the server, the client, and the Mongo database, displays how the website functions in its most primitive state. It displays how information is requested by the client, obtained by the server from the database, and then displayed to the
-client by the server. Say, for example, the clientside website required an image of a cruise ship as part of the webpage its trying to load. The HTTP client would 'call service to retrieve data' from the controller model, which would then request the desired image through Mongoose, before passing it back to the 
-HTTP client, which would finally display the image to the browser view. This is a grossly oversimplified way to display how the client, server, and database interact with each other but it works in this case as a simple paper prototype model.
+The sequence diagram created to prototype the website and how it would interact with the server, the client, and the Mongo database, displays how the website functions in its most primitive state. It displays how information is requested by the client, obtained by the server from the database, and then displayed to the client by the server. Say, for example, the clientside website required an image of a cruise ship as part of the webpage it's trying to load. The HTTP client would 'call service to retrieve data' from the controller model, which would then request the desired image through Mongoose, before passing it back to the  HTTP client, which would finally display the image to the browser view. This is a grossly oversimplified way to display how the client, server, and database interact with each other but it works in this case as a simple paper prototype model.
 
 <img src="Images/TL_TravlrB.png" alt="Image displaying the class diagram for the Travlr Website" style="width:750px;height:500px;">
 
